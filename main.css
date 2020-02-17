@@ -1,1 +1,31 @@
-# lesson6-hw
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.block {
+    width: 500px;
+    height: 500px;
+    margin-left: 25px;
+    border: 2px solid black;
+    background-color: lightgray;
+}
+
+.name,
+.email {
+    display: block;
+    margin-bottom: 10px;
+}
+
+label,
+input {
+    margin-bottom: 15px;
+}
+
+button {
+    background: grey;
+    color: white;
+    height: 30px;
+    width: 60px;
+ }
