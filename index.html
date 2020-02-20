@@ -25,37 +25,46 @@
         <label>Your email(required)</label>
         <input class="email" type="email" name="email" id="email" required>
     </div>
-    
-    <p>What's this all about?</p>
 
-    <div class="Say Hello">
-        <input type="checkbox" name="Say Hello" id="Say Hello">
-        <label for="Say Hello">Say Hello</label>
+    <div class="checks" id="check_box">
+    <label for="say_hello">
+        <input type="checkbox" value="say" name="checkboxes" id="say_hello"/>
+        Say Hello
+    </label>
+    <label for="complain">
+        <input type="checkbox" value="1" name="checkboxes" id="complain"/>
+        Complain
+    </label>
+    <label for="share">
+        <input type="checkbox" value="1" name="checkboxes" id="share"/>
+        Share a joke
+    </label>
     </div>
 
-    <div class="Complain">
-        <input type="checkbox" name="Complain" id="Complain">
-        <label for="Complain">Complain</label>
-    </div>  
-    
-    <div class="Share a joke">
-        <input type="checkbox" name="Share a joke" id="Share a joke">
-        <label for="Share a joke">Share a joke</label>
-    </div>
+        <label for="cars" class="clr">Subject</label>
+		<select name="cars" id="cars">
+			<option value="" disabled selected>Please select</option>
+			<optgroup label="BMW">
+				<option value="BMW">M5-F90</option>
+				<option value="BMW">M5-F10</option>
+				<option value="BMW">M5-E60</option>
+			</optgroup>
+			<optgroup label="Mercedes">
+				<option value="Mercedes">E63s</option>
+				<option value="Mercedes">G63</option>
+				<option value="Mercedes">S63</option>
+			</optgroup>
+			<optgroup label="Porsche">
+				<option value="Porsche">911-GT3-RS</option>
+				<option value="Porsche">Cayenne-Turbo-S</option>
+				<option value="Porsche">Macan-GTS</option>
+			</optgroup>
+		</select>
 
-    <p>Subject</p>
+        <label for="ymessage">Your Message</label>
+		<textarea name="ymessage" id="ymessage" cols="20" rows="2"></textarea>
 
-    <div class="subject">
-        <input type="subject" name="subject" placeholder="subject">
-    </div>
-
-    <p>Your Mesage</p>
-
-    <div class="message">
-        <textarea></textarea>
-    </div>
-
-    <button type="submit">SEND</button>
+        <button type="submit">SEND</button>
 
     </div>
     </form>
